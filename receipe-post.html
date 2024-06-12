@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bem-vindo ao mundo das receitas.Descubra uma variedade de receitas deliciosas para todos os gostos e ocasiões.">
+    <meta name="keywords"
+    content="receitas, culinária, comida, pratos, cozinha, gastronomia, ingredientes, preparo, receitas fáceis, receitas rápidas, sobremesas, alimentos">
+<meta name="robots" content="all">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Deliciosas Receitas: Inspiração Culinária para Todos os Paladares</title>
+    <link rel="icon" href="./IMAGENS/pancake.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <i class="circle-preloader"></i>
+        <img src="img/core-img/salad.png" alt="logoreceita">
+    </div>
+    <div class="search-wrapper">
+        <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#" method="post">
+                        <input type="search" name="search" placeholder="Type any keywords...">
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header-area">
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-between">
+                    <div class="col-12 col-sm-6">
+                        <div class="breaking-news">
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="#">Seja Bem-vindo </a></li>
+                                    <li><a href="#">Encontre aqui as melhores receitas</a></li>
+                                    <li><a href="#">Receitas doces, salgadas e fáceis</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="top-social-info text-right">
+                            <a href="https://www.facebook.com/24kitchen.pt"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/24kitchenpt"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/24Kitchen%20Portugal"><i class="fa fa-youtube"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delicious-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="deliciousNav">
+                        <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="delicious-main-menu">
+                                <div class="classy-nav-container breakpoint-off">
+                                    <div class="container">
+                                        <nav class="classy-navbar justify-content-between" id="deliciousNav1">
+                                            <a class="nav-brand" href="index.html"><img src="./IMAGENS/Logosite.png"
+                                                    alt="logo site"></a>
+                                            <div class="classy-navbar-toggler">
+                                                <span
+                                                    class="navbarToggler"><span></span><span></span><span></span></span>
+                                            </div>
+                                            <div class="classy-menu">
+                                                <div class="classycloseIcon">
+                                                    <div class="cross-wrap"><span class="top"></span><span
+                                                            class="bottom"></span></div>
+                                                </div>
+                                                <div class="classynav">
+                                                    <ul>
+                                                        <li class="active"><a href="index.html">Home</a></li>
+                                                        <li><a href="#section-receita">Receita da semana</a>
+                                                        <li><a href="#section-comentario">Comentário</a></li>
+                                                        <li><a href="about.html">Sobre Nós</a>
+                                                    </ul>
+                                                    <div class="search-btn">
+                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+    </header>
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(./IMAGENS/cakeorangecap2.png);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-text text-center">
+                        <h2>Receita da semana</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="receipe-post-area section-padding-80">
+        <div class="receipe-post-search mb-80">
+            <div class="container">
+                <form action="#" method="post">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <select name="select1" id="select1">
+                                <option value="1">Todas as receitas</option>
+                                <option value="1">Entrada</option>
+                                <option value="1">Prato principal</option>
+                                <option value="1">Sopas e cremes</option>
+                                <option value="1">legumes e vegetais</option>
+                                <option value="1">Vegetariano e Vegano</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <select name="select2" id="select2">
+                                <option value="1">Bebidas & Sobremesas </option>
+                                <option value="1">Bolos e pastelaria</option>
+                                <option value="1">Bebidas e cocktails</option>
+                                <option value="1">Sobremesas light</option>
+                                <option value="1">Pestiscos</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <input type="search" name="search" placeholder="Pesquisar receitas">
+                        </div>
+                        <div class="col-12 col-lg-3 text-right">
+                            <button type="submit" class="btn delicious-btn">Pesquisar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="./IMAGENS/Bolo de Laranja .mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="receipe-content-area">
+            <div class="container">
+
+                <div id="section-receita" class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="receipe-headline my-5">
+                            <span>06 junho de 2024</span>
+                            <h2>Bolo de Laranja</h2>
+                            <div class="receipe-duration">
+                                <h6>Preparação: 15 minutos</h6>
+                                <h6>Cozinhe: 30 minutos</h6>
+                                <h6>Rendimento: 8 porções</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="receipe-ratings text-right my-5">
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <a  class="btn delicious-btn">Para iniciantes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="single-preparation-step d-flex">
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="ingredients">
+                                <h4>Ingredientes</h4>
+                                <h5>Massa</h5>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">250g de açúcar </label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">100g de manteiga</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">6 ovos</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">100g de farinha sem
+                                        fermento</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                    <label class="custom-control-label" for="customCheck5">Puré de 2 laranjas</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                    <label class="custom-control-label" for="customCheck6">100ml de iogurte
+                                        grego</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                    <label class="custom-control-label" for="customCheck7">300g de amêndoa
+                                        triturada</label>
+                                </div>
+                                <h5>Calda</h5>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                    <label class="custom-control-label" for="customCheck8">Sumo e raspa de 1 laranja
+                                    </label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                    <label class="custom-control-label" for="customCheck8">150g de mel</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>1.0 - Para o genoise azeite, coloque os ovos e o açúcar numa batedeira com varas. Comece
+                        por
+                        bater à velocidade máxima durante 5 minutos. Depois baixe para a velocidade média, bata
+                        3 minutos e a seguir altere para velocidade mínima e bata mais 7 minutos. Peneire a
+                        farinha e o amido de milho em 3 vezes. <br> <br>
+                        2.0 - Ao azeite adicione as zestes de laranja. <br><br>
+                        3.0 - Envolva, delicadamente, em 4 vezes, a mistura da farinha com a base dos ovos. Por
+                        fim,
+                        envolva o azeite com as raspas de laranja. Divida esta massa por duas formas de 18cm de
+                        diâmetro, previamente untadas com manteiga e polvilhadas com farinha. <br>
+                        Leve ao forno a 170ºC durante 25 minutos. <br><br>
+                        4.0 - Depois deixe arrefecer, desenforme, cubra com película e leve ao frigorífico
+                        durante
+                        4h.<br><br>
+                        5.0 - Para a calda de laranja, junte todos os ingredientes num tacho e deixe ferver.
+                        Reserve para que arrefeça. <br><br>
+                        6.0 - Para o doce de cascas de laranja, comece por descascar as laranjas, retirando a
+                        parte
+                        branca das cascas. Corte em juliana. Retire os caroços do interior da laranja e corte em
+                        pedaços de 1 cm. Coloque as cascas da laranja laminada num tacho com a água, deixe
+                        levantar fervura e, de seguida, cozinhe em lume brando durante 10 minutos. Adicione os
+                        restantes ingredientes e cozinhe até o doce engrossar ou atingir 103ºC. Deixe arrefecer.
+                        <br><br>
+                        7.0 - Para o creme de azeite e queijo creme, numa cuba da batedeira adicione todos os
+                        ingredientes à exceção do azeite. Monte até obter um creme com uma textura fofa. De
+                        seguida, adicione o azeite e envolva. <br><br>
+                        8.0 - Para o buttercream de baunilha, numa cuba da batedeira adicione as claras, o
+                        açúcar
+                        e o sal fino. Leve a um banho-maria até atingir 68ºC. Monte com as varas até obter um
+                        merengue brilhante e frio. Depois troque as varas pelo acessório K e vá adicionando a
+                        manteiga, uma colher de sopa de cada vez. Monte até incorporar a totalidade da manteiga.
+                        Por fim, adicione o extrato de baunilha, a vagem e a pitada generosa de flor de sal.
+                        <br><br>
+                        9.0 - Corte os dois bolos a meio e coloque um bolo na base. Pincele com calda de laranja
+                        e
+                        espalhe 2 colheres de sopa de doce de cascas e de segmentos de tangerina fresca. Coloque
+                        4 colheres de sopa de creme de azeite e espalhe pela totalidade do diâmetro do bolo.
+                        Repetir o processo com os restantes bolos. <br><br>
+                        10.0 - Coloque uma camada fina de creme manteiga de forma a cobrir a totalidade do
+                        exterior do bolo. Refrigere por 1h. <br><br>
+                        11.0 - E antes de servir, termine com o resto do creme de manteiga e decore com gomos de
+                        tangerina, folhas de nastúrcios e pétalas/flores e chantilly.
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="receipe-slider owl-carousel">
+                                <img src="./IMAGENS/bololaranja.jpg" alt="feed1">
+                                <img src="./IMAGENS/cakeorange.jpg" alt="feed2">
+                                <img src="./IMAGENS/orangecake.jpg" alt="feed3">
+                                <img src="./IMAGENS/orangecake2.jpg" alt="feed4">
+                            </div>
+                        </div>
+                    </div>
+                </div> <br>
+                <div class="row">
+                    <div id="section-comentario" class="col-12">
+                        <div class="contact-form-area">
+                            <p class="login-message">Deixar o seu comentário sobre a receita da semana.</p>
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <input type="text" class="form-control" id="name" placeholder="Nome">
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"
+                                            placeholder="Por favor, digite seu comentário"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn delicious-btn mt-30" type="submit">Publicar
+                                            comentário</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment-section">
+        <div class="comment-header">
+            <h2>Comentários</h2>
+        </div>
+        <div class="comment-tabs">
+            <div class="tab active" onclick="showRecent()">Recentes</div>
+            <div class="tab" onclick="showPopular()">Populares</div>
+        </div>
+        <div id="recent-comments">
+            <div class="comment">
+                <img src="./IMAGENS/comentariomul1.jpg" alt="cometario joana">
+                <div class="comment-info">
+                    <h4>Joana Ferreira</h4>
+                    <span>05/06/2024</span>
+                    <div class="comment-body">
+                        Fiz essa receita ontem e o bolo ficou maravilhoso! Super fofo e com aquele sabor cítrico
+                        delicioso. Recomendo!
+                    </div>
+                    <div class="comment-actions">
+                        <div>
+                            <span onclick="toggleReplyForm(this)">Responder</span>
+                        </div>
+                        <div>
+                            <span>Reportar</span>
+                        </div>
+                        <div>
+                            <span>👍 3</span>
+                            <span>👎 0</span>
+                        </div>
+                    </div>
+                    <div class="reply-form">
+                        <textarea placeholder="Escreva sua resposta aqui..."></textarea>
+                        <button onclick="submitReply(this)">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="./IMAGENS/comentarioman.jpg" alt="comentario carlos">
+                <div class="comment-info">
+                    <h4>Carlos Almeida</h4>
+                    <span>04/06/2024</span>
+                    <div class="comment-body">
+                        Receita fácil de seguir e o resultado foi um bolo muito saboroso. Perfeito para o café da tarde.
+                    </div>
+                    <div class="comment-actions">
+                        <div>
+                            <span onclick="toggleReplyForm(this)">Responder</span>
+                        </div>
+                        <div>
+                            <span>Reportar</span>
+                        </div>
+                        <div>
+                            <span>👍 2</span>
+                            <span>👎 0</span>
+                        </div>
+                    </div>
+                    <div class="reply-form">
+                        <textarea placeholder="Escreva sua resposta aqui..."></textarea>
+                        <button onclick="submitReply(this)">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="./IMAGENS/comentariomul2.avif" alt="comentario mariana">
+                <div class="comment-info">
+                    <h4>Mariana Souza</h4>
+                    <span>03/06/2024</span>
+                    <div class="comment-body">
+                        Adorei a receita! Usei laranjas frescas do quintal e o bolo ficou incrível. Vou fazer de novo
+                        com certeza!
+                    </div>
+                    <div class="comment-actions">
+                        <div>
+                            <span onclick="toggleReplyForm(this)">Responder</span>
+                        </div>
+                        <div>
+                            <span>Reportar</span>
+                        </div>
+                        <div>
+                            <span>👍 2</span>
+                            <span>👎 0</span>
+                        </div>
+                    </div>
+                    <div class="reply-form">
+                        <textarea placeholder="Escreva sua resposta aqui..."></textarea>
+                        <button onclick="submitReply(this)">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment">
+        <div id="popular-comments" style="display:none;">
+            <img src="./IMAGENS/comentarioem3.png" alt="Lucas Mendes">
+            <div class="comments comment-info">
+                <h4>Lucas Mendes</h4>
+                <span>02/06/2024</span>
+                <div class="comment-body">
+                    Fiz para o aniversário do meu filho e todos adoraram. O bolo ficou super macio e saboroso, dicionei
+                    uma calda de laranja por cima que deu um toque especial.
+                     .Receita
+                    nota 10!A massa ficou bem leve e o sabor da laranja ficou bem presente. Vou fazer novamente.
+                </div>
+                <div class="comment-actions">
+                    <div>
+                        <span onclick="toggleReplyForm(this)">Responder</span>
+                    </div>
+                    <div>
+                        <span>Reportar</span>
+                    </div>
+                    <div>
+                        <span>👍 9</span>
+                        <span>👎 1</span>
+                    </div>
+                </div>
+                <div class="reply-form">
+                    <textarea placeholder="Escreva sua resposta aqui..."></textarea>
+                    <button onclick="submitReply(this)">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="follow-us-instagram">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5>SIGA-NOS!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="insta-feeds d-flex flex-wrap">
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta1.jpg" alt="footerinsta1">
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta2.jpg" alt="footerinsta2">
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta3.jpg" alt="footerinsta3">
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta4.jpg" alt="footerinsta4">
+
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta5.jpg" alt="footerinsta5">
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta6.jpg" alt="footerinsta6">
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="single-insta-feeds">
+                <img src="img/bg-img/insta7.jpg" alt="footerinsta7">
+
+                <div class="insta-icon">
+                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-logo">
+        <img src="./IMAGENS/footer.png" alt="logo_footer">
+    </div>
+    <p>
+        Copyright &copy;
+        <script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o"
+            aria-hidden="true"></i> by <a href="https://assinei.digital/termos-e-condicoes/" target="_blank">Magda
+            Figueiredo</a> Site de
+        receitas
+    </p>
+    </footer>
+    <script>
+        function showRecent() {
+            document.getElementById('recent-comments').style.display = 'block';
+            document.getElementById('popular-comments').style.display = 'none';
+            document.querySelectorAll('.tab')[0].classList.add('active');
+            document.querySelectorAll('.tab')[1].classList.remove('active');
+        }
+
+        function showPopular() {
+            document.getElementById('recent-comments').style.display = 'none';
+            document.getElementById('popular-comments').style.display = 'block';
+            document.querySelectorAll('.tab')[0].classList.remove('active');
+            document.querySelectorAll('.tab')[1].classList.add('active');
+        }
+
+        function toggleReplyForm(element) {
+            const replyForm = element.parentElement.parentElement.nextElementSibling;
+            if (replyForm.style.display === "block") {
+                replyForm.style.display = "none";
+            } else {
+                replyForm.style.display = "block";
+            }
+        }
+
+        function submitReply(button) {
+            const textarea = button.previousElementSibling;
+            const replyText = textarea.value;
+            if (replyText.trim() !== "") {
+                alert("Resposta enviada: " + replyText);
+                textarea.value = "";
+            } else {
+                alert("Por favor, escreva uma resposta antes de enviar.");
+            }
+        }
+    </script>
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
