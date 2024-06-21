@@ -20,7 +20,7 @@
 <body>
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/salad.png" alt="logo site">
+        <img src="./IMAGENS/pancake.png" alt="logo-site">
     </div>
     <div class="search-wrapper">
         <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
@@ -30,7 +30,8 @@
                 <div class="col-12">
                     <form action="#" method="post">
                         <input type="search" name="search" placeholder="Type any keywords...">
-                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        <button aria-label="search button" type="submit"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
                     </form>
                 </div>
             </div>
@@ -68,7 +69,7 @@
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
                     <nav class="classy-navbar justify-content-between" id="deliciousNav">
-                        <a class="nav-brand" href="index.html"><img src="./IMAGENS/Logosite.png" alt="logo home"></a>
+                        <a class="nav-brand" href="index.html"><img src="./IMAGENS/Logosite.png" alt="logo-home"></a>
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
@@ -82,7 +83,7 @@
                                     <li><a href="#section-receita">Melhores receitas</a></li>
                                     <li><a href="#section-gluten">Gluten free</a></li>
                                     <li><a href="#section-novidades">Novidades</a></li>
-                                    <li><a href="#section-contact">Contato</a></li>
+                                    <li><a href="contact.html">Contato</a></li>
                                     <li><a href="#">Mais</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
@@ -589,8 +590,9 @@
             <div class="single-insta-feeds">
                 <img src="img/bg-img/insta2.jpg" alt="footerinsta2">
                 <div class="insta-icon">
-                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                            aria-hidden="true"></i></a>
+                    <a aria-label="instgram link" href="https://www.instagram.com/24kitchenpt/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
             <div class="single-insta-feeds">
@@ -635,51 +637,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading">
-                        <h3>Contacte-nos</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="contact-form-area">
-                        <form action="#" method="post">
-                            <div class="row">
-                                <div class="col-12 col-lg-6">
-                                    <input type="text" class="form-control" id="name" placeholder="Nome">
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control" id="subject" placeholder="Assunto">
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="message" class="form-control" id="message" cols="10" rows="05"
-                                        placeholder="Por favor, digite sua mensagem."></textarea>
-                                </div>
-                                <div class="col-12 text-center">
-                                    <button class="btn delicious-btn mt-30" type="submit">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-logo">
-        <img src="./IMAGENS/footer.png" alt="logo_footer">
-    </div>
-    <p>
-        Copyright &copy;
-        <script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o"
-            aria-hidden="true"></i> by <a href="https://assinei.digital/termos-e-condicoes/" target="_blank">Magda
-            Figueiredo</a> Site de
-        receitas
-    </p>
-
+    <footer class="footer-area">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100 d-flex flex-wrap align-items-center justify-content-between">
+                    <div class="footer-social-info text-right">
+                        <a href="https://www.facebook.com/24kitchen.pt"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/24kitchenpt"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/24Kitchen%20Portugal"><i class="fa fa-youtube"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="./IMAGENS/footer.png" alt="logo_footer">
+                    </div>
+                </div>
+                <p>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved <i
+                        class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                        href="https://assinei.digital/termos-e-condicoes/" target="_blank">Magda
+                        Figueiredo</a> Site de
+                    receitas
+                </p>
+            </div>
+        </div>
+    </footer>
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap/popper.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>

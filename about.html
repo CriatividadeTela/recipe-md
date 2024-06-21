@@ -20,7 +20,7 @@
 <body>
     <div id="preloader">
         <i class="circle-preloader"></i>
-        <img src="img/core-img/salad.png" alt="">
+        <img src="./IMAGENS/pancake.png" alt="logo-about">
     </div>
     <div class="search-wrapper">
         <div class="close-btn"><i class="fa fa-times" aria-hidden="true"></i></div>
@@ -67,10 +67,10 @@
         <div class="delicious-main-menu">
             <div class="classy-nav-container breakpoint-off">
                 <div class="container">
-                    <nav class="classy-navbar justify-content-between" id="deliciousNav">
-                        <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                    <nav class="classy-navbar justify-content-between">
+                        <a class="nav-brand" href="index.html"></a>
                         <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                            <span class="navbarToggler"></span>
                         </div>
                         <div class="classy-menu">
                             <div class="classycloseIcon">
@@ -79,9 +79,9 @@
                             <div class="delicious-main-menu">
                                 <div class="classy-nav-container breakpoint-off">
                                     <div class="container">
-                                        <nav class="classy-navbar justify-content-between" id="deliciousNav">
-                                            <a class="nav-brand" href="index.html"><img src="./IMAGENS/Logosite.png"
-                                                    alt=""></a>
+                                        <nav aria-label="nav" class="classy-navbar justify-content-between">
+                                            <a aria-label="link logo" class="nav-brand" href="index.html"><img
+                                                    src="./IMAGENS/Logosite.png" alt=""></a>
                                             <div class="classy-navbar-toggler">
                                                 <span
                                                     class="navbarToggler"><span></span><span></span><span></span></span>
@@ -96,16 +96,23 @@
                                                         <li class="active"><a href="index.html">Home</a></li>
                                                         <li><a href="#section-chef">Os chefs</a>
                                                         <li><a href="receipe-post.html">Receita da semana</a>
-                                                        <li><a href="#section-contact">Contato</a></li>
+                                                        <li><a href="contact.html">Contato</a></li>
                                                     </ul>
                                                     <div class="search-btn">
                                                         <i class="fa fa-search" aria-hidden="true"></i>
                                                     </div>
                                                 </div>
+                                            </div>
                                         </nav>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
     </header>
 
     <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(./IMAGENS/capasobre.png);">
@@ -174,7 +181,7 @@
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="single-cool-fact">
-                    <img src="img/core-img/pancake.png" alt="">
+                    <img src="img/core-img/pancake.png" alt="logoabout">
                     <h3><span class="counter">326</span></h3>
                     <h6>Receitas de sobremesas</h6>
                 </div>
@@ -197,8 +204,6 @@
             </div>
         </div>
     </div>
-    
-    </section>
     <section class="best-receipe-area">
         <div id="section-chef" class="container">
             <div class="row">
@@ -261,120 +266,107 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="section-heading">
-                                    <h3>Contacte-nos</h3>
-                                </div>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="contact-form-area">
-                                    <form action="#" method="post">
-                                        <div class="row">
-                                            <div class="col-12 col-lg-6">
-                                                <input type="text" class="form-control" id="name" placeholder="Nome">
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <input type="email" class="form-control" id="email"
-                                                    placeholder="E-mail">
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="text" class="form-control" id="subject"
-                                                    placeholder="Assunto">
-                                            </div>
-                                            <div class="col-12">
-                                                <textarea name="message" class="form-control" id="message" cols="30"
-                                                    rows="10" placeholder="Por favor, digite sua mensagem."></textarea>
-                                            </div>
-                                            <div class="col-12 text-center">
-                                                <button class="btn delicious-btn mt-30" type="submit">Enviar</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                        <div class="follow-us-instagram">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5>SIGA-NOS!</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="insta-feeds d-flex flex-wrap">
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta1.jpg" alt="footerinsta1">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta2.jpg" alt="footerinsta2">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta3.jpg" alt="footerinsta3">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta4.jpg" alt="footerinsta4">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta5.jpg" alt="footerinsta5">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta6.jpg" alt="footerinsta6">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-insta-feeds">
+                                    <img src="img/bg-img/insta7.jpg" alt="footerinsta7">
+                                    <div class="insta-icon">
+                                        <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="follow-us-instagram">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h5>SIGA-NOS!</h5>
+                    <footer class="footer-area">
+                        <div class="container h-100">
+                            <div class="row h-100">
+                                <div class="col-12 h-100 d-flex flex-wrap align-items-center justify-content-between">
+                                    <div class="footer-social-info text-right">
+                                        <a href="https://www.facebook.com/24kitchen.pt"><i class="fa fa-facebook"
+                                                aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/24kitchenpt"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                        <a href="https://www.youtube.com/24Kitchen%20Portugal"><i class="fa fa-youtube"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="footer-logo">
+                                        <img src="./IMAGENS/footer.png" alt="logo_footer">
+                                    </div>
                                 </div>
+                                <p>
+                                    Copyright &copy;
+                                    <script>document.write(new Date().getFullYear());</script> All rights reserved <i
+                                        class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                        href="https://assinei.digital/termos-e-condicoes/" target="_blank">Magda
+                                        Figueiredo</a> Site de
+                                    receitas
+                                </p>
                             </div>
                         </div>
-                        <div class="insta-feeds d-flex flex-wrap">
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta1.jpg" alt="footerinsta1">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta2.jpg" alt="footerinsta2">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta3.jpg" alt="footerinsta3">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta4.jpg" alt="footerinsta4">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta5.jpg" alt="footerinsta5">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta6.jpg" alt="footerinsta6">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <div class="single-insta-feeds">
-                                <img src="img/bg-img/insta7.jpg" alt="footerinsta7">
-                                <div class="insta-icon">
-                                    <a href="https://www.instagram.com/24kitchenpt/"><i class="fa fa-instagram"
-                                            aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-logo">
-                        <img src="./IMAGENS/footer.png" alt="logo_footer">
-                    </div>
-                </div>
-                    <p>
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved <i
-                            class="fa fa-heart-o" aria-hidden="true"></i> by <a
-                            href="https://assinei.digital/termos-e-condicoes/" target="_blank">Magda
-                            Figueiredo</a> Site de
-                        receitas
-                    </p>
-
                     </footer>
-                    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-                    <script src="js/bootstrap/popper.min.js"></script>
-                    <script src="js/bootstrap/bootstrap.min.js"></script>
-                    <script src="js/plugins/plugins.js"></script>
-                    <script src="js/active.js"></script>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/active.js"></script>
 </body>
+
 </html>
